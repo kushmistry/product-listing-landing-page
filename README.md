@@ -14,3 +14,6 @@ docker run -p 80:80 frontend-image
 
 # Run the backend container
 docker run -p 8000:8000 backend-image
+
+
+Make sure to replace Dockerfile.frontend and Dockerfile.backend with the actual filenames if you saved them with different names.
