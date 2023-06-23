@@ -1,0 +1,49 @@
+.lodder {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+}
+
+.container {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  flex: 1;
+  flex-grow: 3;
+  flex-shrink: 2;
+}
+
+.card-contaner {
+  background-color: #f1f5f9;
+  width: 210px;
+  position: relative;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+.desc-section {
+  padding: 1rem;
+}
+
+#title {
+  color: #282c3f;
+  font-weight: 600;
+}
+.cart-price {
+  margin-bottom: 4rem;
+}
+
+.btn-cart {
+  width: 90%;
+  position: absolute !important;
+  bottom: 1rem;
+  left: 10px;
+  margin: 2rem 10px;
+}

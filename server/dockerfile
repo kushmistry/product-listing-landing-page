@@ -1,0 +1,10 @@
+#node block
+
+FROM node:alpine3.16 as backend
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm install
+COPY . .
+EXPOSE 8000
+CMD ["npm", "start"]
+

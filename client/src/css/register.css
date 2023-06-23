@@ -1,0 +1,20 @@
+.containet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.register-dialog {
+  padding: 2rem !important;
+}
+
+.main-section {
+  margin: 1rem 4rem;
+  text-align: center;
+}
+
+.text {
+  color: #398fdd;
+  cursor: pointer;
+}

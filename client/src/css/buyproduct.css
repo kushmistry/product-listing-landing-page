@@ -1,0 +1,32 @@
+.cointainer {
+  display: flex;
+  gap: 5rem;
+  padding: 2rem;
+}
+
+.left-part {
+  width: 40%;
+}
+
+.right-part {
+  float: right;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.category {
+  color: #93959f;
+  font-size: 18px;
+}
+
+.rating {
+  display: inline;
+}
+
+.orderBtn {
+  width: 200px;
+  height: 2.5rem;
+}
