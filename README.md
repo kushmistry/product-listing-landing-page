@@ -1,7 +1,7 @@
 # product-listing-landing-page
 simple web-application.
 
-# for docker create images and container
+# for docker - create images and container
 
 # Build the frontend image
 docker build -t frontend-image -f Dockerfile.frontend .
